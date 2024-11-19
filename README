@@ -1,0 +1,6 @@
+libexample.so rename -> example.so
+
+>>> import sys
+>>> sys.path.append('/source/user/td/jmw/test_pybind/build')
+>>> import example
+>>> print(example.add(3,5))
