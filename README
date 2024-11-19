@@ -1,3 +1,7 @@
+cd /source/user/td/jmw/test_pybind/build
+cmake -DPython3_EXECUTABLE=$(which python3.7) ..
+make
+
 libexample.so rename -> example.so
 
 >>> import sys
